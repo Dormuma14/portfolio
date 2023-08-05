@@ -1,0 +1,36 @@
+body {
+    background-color: white;
+}
+
+span {
+    font-family: monospace;
+    color: black !important;
+    font-weight: 800 !important;
+}
+
+a {
+    color: black !important;
+}
+
+#header-image-block {
+    top: -10px;
+}
+
+img {
+    z-index: 10;
+    position: absolute;
+    max-height: 465px;
+}
+
+.text::after {
+    content: "";
+    position: absolute;
+    left: 47%;
+    bottom: 90px;
+    border: 3px solid yellow;
+    width: 6%;
+}
+
+.card1 {
+    max-height: 300px;
+}
